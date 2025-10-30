@@ -2,7 +2,7 @@ name: Mon Premier Workflow
 on: workflow_dispatch
 jobs:
   premierJob:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - name: Mon premier Job
         run: echo "Démarrages des choses"
